@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SmartSafar.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:SmartSafar.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
+
+    <!-- Splash is first — app starts here -->
+    <ShellContent Route="SplashPage"
+                  ContentTemplate="{DataTemplate views:SplashPage}"/>
+
+    <ShellContent Route="RolePage"
+                  ContentTemplate="{DataTemplate views:RolePage}"/>
+    <ShellContent Route="LoginPage"
+                  ContentTemplate="{DataTemplate views:LoginPage}"/>
+    <ShellContent Route="DriverLoginPage"
+                  ContentTemplate="{DataTemplate views:DriverLoginPage}"/>
+    <ShellContent Route="PassengerHome"
+                  ContentTemplate="{DataTemplate views:PassengerHomePage}"/>
+    <ShellContent Route="DriverHome"
+                  ContentTemplate="{DataTemplate views:DriverHomePage}"/>
+    <ShellContent Route="AdminHome"
+                  ContentTemplate="{DataTemplate views:AdminHomePage}"/>
+    <ShellContent Route="FavoritesPage"
+                  ContentTemplate="{DataTemplate views:FavoritesPage}"/>
+    <ShellContent Route="HistoryPage"
+                  ContentTemplate="{DataTemplate views:HistoryPage}"/>
+    <ShellContent Route="SchedulePage"
+                  ContentTemplate="{DataTemplate views:SchedulePage}"/>
+    <ShellContent Route="ProfilePage"
+                  ContentTemplate="{DataTemplate views:ProfilePage}"/>
+    <ShellContent Route="AdminDriversPage"
+                  ContentTemplate="{DataTemplate views:AdminDriversPage}"/>
+    <ShellContent Route="DriverRoutePage"
+                  ContentTemplate="{DataTemplate views:DriverRoutePage}"/>
+    <ShellContent Route="DriverHistoryPage"
+                  ContentTemplate="{DataTemplate views:DriverHistoryPage}"/>
+    <ShellContent Route="DriverProfilePage"
+                  ContentTemplate="{DataTemplate views:DriverProfilePage}"/>
+    <ShellContent Route="DriverSettingsPage"
+                  ContentTemplate="{DataTemplate views:DriverSettingsPage}"/>
+    <ShellContent Route="AdminBusesPage"
+                  ContentTemplate="{DataTemplate views:AdminBusesPage}"/>
+    <ShellContent Route="AdminPassengersPage"
+                  ContentTemplate="{DataTemplate views:AdminPassengersPage}"/>
+    <ShellContent Route="AdminRoutesPage"
+                  ContentTemplate="{DataTemplate views:AdminRoutesPage}"/>
+    <ShellContent Route="AdminProfilePage"
+                  ContentTemplate="{DataTemplate views:AdminProfilePage}"/>
+    <ShellContent Route="AdminSystemPage"
+                  ContentTemplate="{DataTemplate views:AdminSystemPage}"/>
+    <ShellContent Route="MapPage"
+                  ContentTemplate="{DataTemplate views:MapPage}"/>
+    <ShellContent Route="GuestPage"
+                  ContentTemplate="{DataTemplate views:GuestPage}"/>
+    <ShellContent Route="RegisterPage"
+                  ContentTemplate="{DataTemplate views:RegisterPage}"/>
+    <ShellContent Route="AdminLoginPage"
+              ContentTemplate="{DataTemplate views:AdminLoginPage}"/>
+
+    <ShellContent Route="SecurityPage"
+              ContentTemplate="{DataTemplate views:SecurityPage}"/>
+
+    <ShellContent Route="AdminDriverRequestsPage"
+              ContentTemplate="{DataTemplate views:AdminDriverRequestsPage}"/>
+
+</Shell>
